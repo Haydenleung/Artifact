@@ -1,0 +1,55 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 5rem;
+}
+
+.section {
+    padding: 0rem 10rem;
+}
+
+.titleSection {
+    padding: 0rem 10rem;
+}
+
+.projetTitle {
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.projectTag {
+    font-size: 24pt;
+    font-weight: 400;
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 0;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.projectInfo>div {
+    min-width: 25%;
+    font-weight: 600;
+    line-height: 180%;
+    font-size: 24pt;
+}
+
+.projectInfo>div>div {
+    font-weight: 400;
+    line-height: 180%;
+    font-size: 20pt;
+}
+
+.projectCover {
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.introduction {
+    position: relative;
+}

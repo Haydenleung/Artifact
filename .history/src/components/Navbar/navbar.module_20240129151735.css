@@ -1,0 +1,35 @@
+.container {
+    background-color: rgba(235, 235, 235, 0.8);
+    padding: 0.5rem;
+    width: 100%;
+    padding: 2rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    min-height: 44px;
+}
+
+.logo {
+    width: 5rem;
+    /* height: 2rem; */
+    object-fit: contain;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.bold {
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.normal {
+    color: black;
+    text-decoration: none;
+}

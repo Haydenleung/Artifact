@@ -1,0 +1,22 @@
+.container {
+    background-color: lightgrey;
+    padding: 0.5rem;
+    width: 100%;
+    padding: 1rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.logo {}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.bold {
+    font-weight: 800;
+}

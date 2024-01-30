@@ -1,0 +1,45 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    padding-top: 5rem;
+}
+
+.projetTitle {
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.projectTag {
+    font-size: 24pt;
+    font-weight: 400;
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 0;
+    gap:
+        justify-content: space-between;
+}
+
+.projectInfo>div {
+    font-weight: 600;
+    line-height: 180%;
+    font-size: 24pt;
+    background-color: black;
+}
+
+.projectInfo>div>div {
+    font-weight: 400;
+    line-height: 180%;
+    font-size: 20pt;
+
+}
+
+.projectCover {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}

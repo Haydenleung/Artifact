@@ -1,0 +1,9 @@
+export default function CaseStudy() {
+    return (
+        <div className={"titleSection"}>
+            <h1 className={"projetTitle"}>Project Title</h1>
+            <h3 className={"projectTagline"}>Tagline</h3>
+            <div className={""}></div>
+        </div>
+    )
+}

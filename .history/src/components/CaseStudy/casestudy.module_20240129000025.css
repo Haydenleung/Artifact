@@ -1,0 +1,9 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.projectTitle {
+    font-weight: 800;
+}

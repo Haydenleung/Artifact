@@ -1,0 +1,14 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.projetTitle {
+    font-weight: 800;
+}
+
+.projectTag {
+    font-size: 24pt;
+    font-weight: 400;
+}

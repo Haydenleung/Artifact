@@ -1,0 +1,82 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section {
+    padding: 8rem 10rem 0rem 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.heading {
+    font-size: 36pt;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.body {
+    font-size: 16pt;
+}
+
+.titleSection {
+    padding: 8rem 10rem 0rem 10rem;
+}
+
+.projetTitle {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.projectTag {
+    font-size: 24pt;
+    font-weight: 400;
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 0;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.projectInfo>div {
+    min-width: 25%;
+    font-weight: 600;
+    line-height: 180%;
+    font-size: 24pt;
+}
+
+.projectInfo>div>div {
+    font-weight: 400;
+    line-height: 180%;
+    font-size: 20pt;
+}
+
+.projectCover {
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.introduction {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 5rem 10rem 0 10rem;
+}
+
+.problemImage,
+.timelineImage {
+    background-color: black;
+}
+
+.subSection {
+    display: grid;
+    grid-area: 1pr;
+    flex-direction: row;
+}
